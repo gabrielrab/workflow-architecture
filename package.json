@@ -1,0 +1,17 @@
+{
+  "name": "workflow-architecture",
+  "version": "1.0.0",
+  "description": "Workflow architecture to run your scripts sequentially or parallel in NodeJS",
+  "repository": "https://github.com/gabrielrab/workflow-architecture.git",
+  "author": "Gabriel Rabelo <rabelogabriel72@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  }
+}

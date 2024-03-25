@@ -1,2 +1,3 @@
 # workflow-architecture
-Workflow Architecture
+
+Workflow architecture to run your scripts sequentially or parallel in NodeJS
