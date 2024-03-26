@@ -9,12 +9,14 @@
     "node": "21.x"
   },
   "scripts": {
-    "start": "ts-node index.ts"
+    "start": "tsx index.ts",
+    "build": "tsc && tsc-alias"
   },
   "dependencies": {},
   "devDependencies": {
     "@types/node": "^20.11.30",
-    "ts-node": "^10.9.2",
+    "tsc-alias": "^1.8.8",
+    "tsx": "^4.7.1",
     "typescript": "^5.4.3"
   }
 }
