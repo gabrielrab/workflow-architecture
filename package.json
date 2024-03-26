@@ -5,6 +5,9 @@
   "repository": "https://github.com/gabrielrab/workflow-architecture.git",
   "author": "Gabriel Rabelo <rabelogabriel72@gmail.com>",
   "license": "MIT",
+  "engines": {
+    "node": "21.x"
+  },
   "scripts": {
     "start": "ts-node index.ts"
   },
