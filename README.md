@@ -22,7 +22,9 @@ Abaixo estão listados os recursos presentes na arquitetura:
 - **Steps**: São a menor unidade da arquitetura. Eles são responsável por interagir com o dado enviado e realizar as ações necessárias do script. Podem ser comparados aos _UseCases_ de outras arquiteturas.
 - **GlobalContext**: É uma variável global mutável que pode receber qualquer tipo de dado. Sendo assim se torna o contexto da aplicação, e pode ser acessada e modificada pelos steps de acordo com a necessidade.
 
-<img src="./.github/assets/example.png">
+<h1 align="center">
+    <img src="./.github/assets/example.png">
+</h1>
 
 ## Inspiração
 

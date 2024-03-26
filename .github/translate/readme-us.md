@@ -22,7 +22,9 @@ Below are the features present in the architecture:
 - **Steps**: These are the smallest unit of the architecture. They are responsible for interacting with the data sent and performing the necessary actions of the script. They can be compared to UseCases in other architectures.
 - **GlobalContext**: It's a mutable global variable that can receive any type of data. Thus, it becomes the application context and can be accessed and modified by the steps according to the need.
 
-<img src="../assets/example.png">
+<h1 align="center">
+    <img src="../assets/example.png">
+</h1>
 
 ## Inspiration
 
