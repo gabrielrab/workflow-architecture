@@ -3,7 +3,7 @@
 </h1>
 <p align="center">
 🇧🇷 Arquitetura de <i>Workflow</i> para executar seus scripts sequencialmente ou paralelo em NodeJS.</br>
-🇺🇸 <i>Workflow Architecture</i> to run your scripts sequentially or parallel in NodeJS. <a>English Readme here</a>
+🇺🇸 <i>Workflow Architecture</i> to run your scripts sequentially or parallel in NodeJS. <a href="https://github.com/gabrielrab/workflow-architecture/tree/main/.github/translate/readme-us.md">English Readme here</a>
 </p>
 <hr>
 
