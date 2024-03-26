@@ -57,7 +57,7 @@ O primeiro passo é criar nossos steps, neste exemplo, eles só vão receber o d
 
 `src/steps/ExampleStep1.ts`
 
-```javascript:
+```javascript
 import Step from "core/Step";
 
 export default class ExampleStep1 extends Step {
@@ -71,7 +71,7 @@ export default class ExampleStep1 extends Step {
 
 `src/steps/ExampleStep2.ts`
 
-```javascript:
+```javascript
 import Step from "core/Step";
 
 export default class ExampleStep2 extends Step {
@@ -87,7 +87,7 @@ O segundo passo é criar a nossa pipeline, nesse caso vamos utilizar uma pipelin
 
 `src/pipelines/ExamplePipeline.ts`
 
-```javascript:
+```javascript
 import SequentialPipeline from "core/SequentialPipeline";
 import ExampleStep1 from "steps/ExampleStep1";
 import ExampleStep2 from "steps/ExampleStep2";
@@ -106,7 +106,7 @@ O último passo é criar o nosso Workflow, dizer a ele qual a pipeline ele deve 
 
 `src/workflows/ExampleWorkflow.ts`
 
-```javascript:
+```javascript
 import Workflow from "core/Workflow";
 import ExamplePipeline from "pipelines/ExamplePipeline";
 
@@ -131,7 +131,7 @@ export default class ExampleWorkflow extends Workflow {
 
 `index.ts`
 
-```javascript:
+```javascript
 import ExampleWorkflow from "workflows/ExampleWorkflow";
 
 // Variável com o contexto global que será acessado e modificado pelos steps
@@ -143,7 +143,6 @@ const data: GlobalContext = {
   const exampleWorkflow = new ExampleWorkflow();
   console.log("result", await exampleWorkflow.run(data));
 })();
-
 ```
 
 [Exemplo acima implementado](https://github.com/gabrielrab/workflow-architecture/tree/example/basic-run)
