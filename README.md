@@ -7,11 +7,11 @@
 </p>
 <hr>
 
-### Objetivo
+## Objetivo
 
 O objetivo geral dessa arquitetura é contemplar a necessidade de execução de scripts de forma controlada. Pode ser utilizada em diversos tipos de cenários e necessidades como por exemplo em aplicações _event driven_, _crawlers_, _scraping_, _crons_ entre outras. A _Workflow Architecture_ atende muito bem necessidades de aplicações de comunicação assíncrona.
 
-### Recursos
+## Recursos
 
 Abaixo estão listados os recursos presentes na arquitetura:
 
@@ -24,11 +24,11 @@ Abaixo estão listados os recursos presentes na arquitetura:
 
 <img src="./.github/assets/example.png">
 
-### Inspiração
+## Inspiração
 
 Arquiteturas no geral, não são construidas ou criadas sem nenhuma motivação. Em sua maioria, elas evoluem de arquiteturas já existentes ou até mesmo são um complemento, como por exemplo o `MVC (Model View Controller)` e `MVVM (Model View ViewModel)`. Já a _Workflow Architecture_ é inspirada no funcionamento do Github Actions. Onde se tem vários arquivos de workflows, e dentro desses workflows você tem uma (ou várias) pipelines para serem executadas. E cada pipeline tem seus steps, que são literalmente etapas a serem executadas para a finalização do script. Assim temos uma abstração desse sistema em formato de arquitetura que pode ser utilizado em projetos não só em NodeJS, mas em qualquer linguagem.
 
-### Estrutura de pastas
+## Estrutura de pastas
 
 ```bash
 .
@@ -49,7 +49,7 @@ Arquiteturas no geral, não são construidas ou criadas sem nenhuma motivação.
         └── # Aqui conter seus workflows
 ```
 
-### Exemplo
+## Exemplo
 
 Para exemplificar a utilização da arquitetura, abaixo temos a implementação de um script básico que roda as pipelines em sequencia, e adiciona um `console.log()` a cada step executado.<br/>
 
